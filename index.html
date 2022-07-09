@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>乐维的小破站</title>
+    <link rel="stylesheet" href="./css/class.css">
+</head>
+<body class="bg" onload="Init()">
+    <div id="bg1" class="bg1">
+    <div class="hidemodel" id="show-model">
+        <p class="model-title" id="title">扫码预览</p>
+        <img src="./images/loveapp.jpg" alt="" class="model-img" id="loveimg">
+        <p class="notice" id="notice-id">因这款小程序需要参加比赛，且其服务器限制，所有不开放预览！</p>
+        <div class="button">
+        <div class="sure" id="down"style="display:none;">
+            <p class="sure-titel" >保存</p>
+            </div>
+            <div class="sure" id="sure-click">
+                <p class="sure-titel">确定</p>
+                </div>
+            </div>
+    </div>
+    <div id="talk" class="talk">
+        <b>
+        欢迎来到乐维的小破站
+        </b>
+    </div>
+    </div >
+    <div class="qvanjv">
+<div class="left" id="left">
+        <div class="author">
+            <img src="https://q1.qlogo.cn/g?b=qq&nk=592958446&s=640" alt="头像" class="photo" >
+            <h1 class="name">乐维</h1>
+            <div class="showtext">
+            <p class="showtext-text">
+                自我评价：
+            </p>
+            <p class="showtext-text" >
+                良好的职业道德和素养，能承受较强的工作压力，具有良好的沟通能力和团队协作能力，与团队精神能够快速融入集体中，有良好性格，积极乐观，待人真诚
+            </p>
+        </div>
+        <div class="showtext-lx" onclick="qq()" type="button">
+            <p class="showtext-text">
+                联系QQ
+            </p>
+        </div>
+        <div class="tips" ></div>
+        <h5 class="tips-text">本站由乐维开发</h5>
+        </div>
+    </div>
+    <div class="rigth">
+        <div class="daohang">
+            <ul class="daohang-ul">
+                <li class="daohang-li" onmouseover="over1()" onmouseout="out1()" id="grjl">个人简页</li>
+                <li class="daohang-li"onmouseover="over2()" onmouseout="out2()"  id="wzzl">王者战力</li>
+                <!-- <li class="daohang-li" onmouseover="over3()" onmouseout="out3()" id="ysjx">影视解析</li> -->
+            </ul>
+        </div>
+        <div class="show-project" id="jlindex">
+        <div class="showloveapp" >
+            <img src="./images/showloveapp-1.jpg" alt="showloveapp" class="app" id="loveapp">
+            <div class="project-text-div" id="show-project-love" title="预览情侣日记">
+                <h2  class="project-text">情侣日记</h2>
+                <p style="color: white;width: 80%;margin: auto;margin-bottom: 20px;" id="lovetext">
+                    这是一款专门为情侣开发的微信小程序，可以通过该小
+                    程序记录情侣在一起的时间，日记等，一经绑定，永不可解绑是该小程序的理念
+                    </p>
+                    <!-- <img src="/images/loveapp.jpg" alt="loveapp" id="loveimg" style="text-align: center; width:160px; height:160px;
+                    margin-bottom: 16px; display: none;"> -->
+            </div>
+            <!-- <img src="/images/showdianti-1.jpg" alt="showloveapp" class="loveapp" > -->
+        </div>
+        <div class="showdianti" >
+            <img src="./images/showdianti-1.jpg" alt="showdianti" class="app" id="dianti">
+            <div class="project-text-div" id="show-project-dianti">
+                <h2 class="project-text" >智云呼梯</h2>
+                <p style="color: white;width: 80%;margin: auto;margin-bottom: 20px;" id="lovetext">
+                    这款小程序是智云呼梯系统的一部分，智云呼梯系统是疫情下减少接触的产物。智云呼梯是我
+                    在物联网方面首款作品，也是参加比赛的重要作品。
+                    </p>
+            </div>
+            <!-- <img src="/images/showdianti-1.jpg" alt="showloveapp" class="loveapp" > -->
+        </div>
+        <div class="showme" >
+            <img src="./images/showmyhtml.jpg" alt="showdianti" class="myhtml" >
+            <div class="project-text-div" style="margin-top:54px;" id="myhtml-id">
+            <h2 class="project-text" >乐维的小破站</h2>
+            <p style="color: white;width: 80%;margin: auto; margin-bottom: 20px;">
+            你现在浏览的网页是我完完整整编写的响应式HTML页面（之前的项目都是从别人的项目基础上整改），这个页面记录了我大学期间所有的前端项目和我的个人介绍
+        </p>
+        </div>
+        </div>
+        </div>
+        <div class="wzzl" id="bind-wzzl">
+            <div class="wrapper">
+                <div class="input-data">
+                    <input id="input-value" type="text" required >
+                    <div class="underline"></div>
+                    <label>查询英雄</label>
+                </div>
+                <label style="color:#2c6fdb;top:20px;position: relative;">查询大区</label>
+                <select  id="selectid" class="select">
+                    <option value="qq" >安卓QQ</option>
+                    <option value="wx" >安卓WX</option>
+                    <option value="ios_qq">苹果QQ</option>
+                    <option value="ios_wx">苹果WX</option>
+                </select>
+                <div class="sure" style="position:relative;top: 40px;" id="cx">
+                    <p class="sure-titel">查询</p>
+                    </div>
+            </div>
+
+        </div>
+
+
+    </div>
+</div>
+
+
+    <!-- js加载 -->
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="./js/universe.js"></script>
+    <script src="./js/typeit.min.js"></script>
+    <script src="./js/talk.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>
+
